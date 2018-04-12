@@ -1,6 +1,8 @@
 # PickUp Rideshare
 
-###How to run:
+
+How to run:
+
 
 ```
 yarn install
