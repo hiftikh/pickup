@@ -54,29 +54,29 @@ app.controller('team', function($scope) {
     $scope.teams = [{
             "name": "Yusra Al-Sharafi",
             "title": "CEO",
-            "img": "img/team_circle.png"
+            "img": "/img/team_circle.png"
         },
         {
             "name": "Alaa Darwech",
             "title": "CEO",
-            "img": "img/team_circle.png"
+            "img": "/img/team_circle.png"
         },
         {
             "name": "Matthew Dudycz",
             "title": "CEO",
-            "img": "img/team_circle.png"
+            "img": "/img/team_circle.png"
         }, {
             "name": "Haris Iftikhar",
             "title": "CEO",
-            "img": "img/team_circle.png"
+            "img": "/img/team_circle.png"
         }, {
             "name": " Neeraja Murali Dharan",
             "title": "CEO",
-            "img": "img/team_circle.png"
+            "img": "/img/team_circle.png"
         }, {
             "name": "Pearson Radu",
             "title": "CEO",
-            "img": "img/team_circle.png"
+            "img": "/img/team_circle.png"
         }
     ];
     // console.log($scope.about);
@@ -95,22 +95,22 @@ app.controller('footer', function($scope) {
 app.controller('ride', function($scope) {
     $scope.rides = [{
         "name": "Bob Smith",
-        "img": "img/team_circle.png",
+        "img": "/img/team_circle.png",
         "price": "$30"
     }, 
     {
         "name": "Bob Smith",
-        "img": "img/team_circle.png",
+        "img": "/img/team_circle.png",
         "price": "$20"
     },
     {
         "name": "Bob Sm",
-        "img": "img/team_circle.png",
+        "img": "/img/team_circle.png",
         "price": "$300"
     },
     {
         "name": "Bob Smith Jr.",
-        "img": "img/team_circle.png",
+        "img": "/img/team_circle.png",
         "price": "$3"
     }];
     console.log($scope.ride);
